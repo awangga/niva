@@ -3,17 +3,16 @@
 #include <stdio.h>
 #include "flags.h"
 
+
 int gFlag = 0;
-char *text;
 
 void welcome_msg(char *msg) {
 printf("%s\n", msg);
 return;
 }
 
-char *echo(char *msg) {
-	text = msg;
-return text;
+const char * echo(const char pesan[]) {
+return pesan;
 }
 
 int get_flag() {
