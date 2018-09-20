@@ -3,7 +3,7 @@ Non-Invasive Vascular Analyzer
 
 # System Requirements
 Please make sure you have same architecture between python and GCC compiler (MinGW in windows). 
-If you have installed python for 64, make sure you had install MinGW-64 to.
+If you have installed python 64-bit, make sure you had install MinGW-w64.
 ## Installation Specification
   - Python 3.6.6 64-bit
   - mingw-w64 x86_64-8.1.0-posix-seh-rt_v6-rev0
